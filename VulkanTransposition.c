@@ -816,6 +816,7 @@ VkResult VulkanTest(uint32_t deviceID, uint32_t coalescedMemory, uint32_t size)
 	vkDestroyDevice(vkGPU.device, NULL);
 	DestroyDebugUtilsMessengerEXT(&vkGPU, NULL);
 	vkDestroyInstance(vkGPU.instance, NULL);
+	return res;
 }
 int findFlag(char** argv, int num, char* flag) {
 	//search for the flag in argv
