@@ -603,6 +603,7 @@ VkResult transferDataToCPU(VkGPU* vkGPU, void* arr, VkBuffer* buffer, VkDeviceSi
 	vkUnmapMemory(vkGPU->device, stagingBufferMemory);
 	vkDestroyBuffer(vkGPU->device, stagingBuffer, NULL);
 	vkFreeMemory(vkGPU->device, stagingBufferMemory, NULL);
+	return res;
 }
 
 VkResult devices_list() {
