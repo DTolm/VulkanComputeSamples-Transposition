@@ -4,7 +4,7 @@ os: linux
 dist: xenial
 branches:
   only:
-    - master
+    - main
 compiler:
   - clang
   - gcc
@@ -20,4 +20,3 @@ install:
 script:
   - cmake .
   - make
-  
