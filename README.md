@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/DTolm/VulkanComputeSamples-Transposition.svg?branch=main)](https://travis-ci.com/DTolm/VulkanComputeSamples-Transposition)
 # Vulkan Compute Sample - out-of-place transposition 
 This repository contains code samples used at EUROfusion Webinar 5. Recording of the webinar can be found at https://www.youtube.com/watch?v=YD_QO5Ilz2U
 
