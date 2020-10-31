@@ -12,7 +12,7 @@ target_compile_definitions(${PROJECT_NAME} PUBLIC -DSHADER_DIR="${CMAKE_CURRENT_
 #target_compile_features(${PROJECT_NAME} PUBLIC cxx_constexpr)
 
 find_package(Vulkan REQUIRED)
-target_link_libraries(${PROJECT_NAME} PUBLIC Vulkan::Vulkan)
+target_link_libraries(${PROJECT_NAME} PUBLIC Vulkan::Vulkan m)
 
 #Build shaders routine
 
