@@ -20,3 +20,4 @@ install:
 script:
   - cmake .
   - make
+  
