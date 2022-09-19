@@ -19,6 +19,4 @@ Vulkan Compute transposition sample has a command-line interface with the follow
 
 ## Contact information
 Initial version of Vulkan Compute transposition sample is developed by Tolmachev Dmitrii\
-Peter Grünberg Institute and Institute for Advanced Simulation, Forschungszentrum Jülich,  D-52425 Jülich, Germany\
-E-mail 1: <d.tolmachev@fz-juelich.de>\
-E-mail 2: <dtolm96@gmail.com>
+E-mail 1: <dtolm96@gmail.com>
